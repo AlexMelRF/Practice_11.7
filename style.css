@@ -1,0 +1,38 @@
+body {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+h1, h2 {
+    display: flex;
+    justify-content: center;
+    color: rgb(44, 6, 6);
+}
+
+th {
+    background-color: azure;
+}
+
+td, th {
+    border: 1px solid rgb(28, 5, 5);
+    padding: 10px;
+    text-align: center;
+    min-width: 80px;
+}
+
+#val {
+    background-color:darkolivegreen
+}
+
+tr:nth-child(even) {
+    background-color: darkgrey;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-weight: bold;
+    color: rgba(192, 9, 9, 0.682);
+}
